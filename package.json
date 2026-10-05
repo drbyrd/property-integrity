@@ -1,0 +1,16 @@
+{
+  "name": "obsidian-property-integrity",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Privacy-clean release candidate for declared numeric and relationship integrity in Obsidian.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node scripts/build.mjs && node --test tests/*.test.mjs",
+    "privacy": "node ../../tools/verify-p225-public-plugin-contract.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "id": "property-integrity",
+  "name": "Property Integrity",
+  "version": "0.1.0",
+  "minAppVersion": "1.4.4",
+  "description": "Maintains declared exact numeric properties and reciprocal note relationships.",
+  "author": "Machi Systems",
+  "isDesktopOnly": true
+}
